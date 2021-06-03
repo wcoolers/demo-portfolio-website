@@ -1,0 +1,40 @@
+.welcome-section {
+    height: 100vh;
+    text-align: center;
+  }
+  .projects-section-header {
+    text-align: center;
+    padding-bottom: .5rem;
+  }
+  .project-title {
+    color: #aaa
+  }
+  .project-title:hover {
+    color: #333;
+    text-decoration: none;
+  }
+  div a:hover {
+    text-decoration: none;
+    color: #333;
+  }
+  .button {
+    text-align: center;
+    border: 1px solid #aaa;
+    color: #aaa;
+  }
+  .contact-section {
+    text-align: center;
+  }
+  .contact-links:hover {
+    transform: translateY(.5rem);
+    transition: transform 0.5s ease-in-out;
+  }
+  footer {
+    text-align: right;
+    background-color: #aaa;
+  }
+  @media (min-width:2000px) {
+    *{
+      font-family: Averta;
+    }
+  }
